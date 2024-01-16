@@ -156,21 +156,24 @@ export default function GetApi() {
   const [data, setData] = useState([]);
 
   const getApiData = async () => {
-    const data = {
-      name:"Bittu Kumar",
-      age:19,
-      email:"bittu@gmail.com"
-    }
-    const url = "http://192.168.1.7:3000/users";
-    let result = await fetch(url , {
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify(data)
-    });
+    // const data = {
+    //   name:"Vikash Kumar",
+    //   age:19,
+    //   email:"vikash@gmail.com"
+    // }
+    const url = "http://192.168.1.13:3000/users";
+    // let result = await fetch(url , {
+    //   method:"POST",
+    //   headers:{"Content-Type":"application/json"},
+    //   body:JSON.stringify(data)
+    // });
 
-    result = await result.json();
-    console.warn((result));
-    // setData(result);
+    let dataRecord = await fetch(url);
+    dataRecord = await dataRecord.json();
+
+    // result = await result.json();
+    // console.warn((dataRecord));
+    setData(dataRecord);
   };
   useEffect(() => {
     getApiData();
