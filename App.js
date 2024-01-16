@@ -16,13 +16,22 @@ import PressableDemo from './src/component/PressableDemo';
 import StatusBarDemo from './src/component/StatusBarDemo';
 import PlateformDemo from './src/component/PlateformDemo';
 import NpmInstallDemo from './src/component/NpmInstallDemo';
+import RefComponent from './src/component/RefComponent';
 
 // Navigation Folder 
 import NavigationDemo from './src/navigation/NavigationDemo';
 import TabNavigationDemo from './src/navigation/TabNavigationDemo';
-import GetApi from './src/api/GetApi';
 
 // Api Folder 
+// import GetApi from './src/api/GetApi';
+import PostApiInput from './src/api/PostApiInput';
+import ValidationInput from './src/api/ValidationInput';
+import ListWithUpdateDelBtn from './src/api/ListWithUpdateDelBtn';
+import UpdateDataModal from './src/api/UpdateDataModal';
+import SearchBox from "./src/api/SearchBox";
+import AsyncStorageDemo from './src/AsyncStorageDemo';
+import Main from './src/component/Main';
+
 
 export default function App() {
   return (
@@ -58,6 +67,10 @@ export default function App() {
     // <PlateformDemo />
 
     // <NpmInstallDemo />
+    // <RefComponent />
+    <AsyncStorageDemo />
+
+    // <Main />
 
     // Navigation Method 
     // <NavigationDemo />
@@ -65,7 +78,17 @@ export default function App() {
     // <TabNavigationDemo />
 
     // Api format 
-    <GetApi />
+    // <GetApi />
+
+    // <PostApiInput />
+
+    // <ValidationInput />
+
+    // <ListWithUpdateDelBtn />
+
+    // <UpdateDataModal />
+
+    // <SearchBox />
 
     // </View>
 
