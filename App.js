@@ -68,7 +68,7 @@ export default function App() {
 
     // <NpmInstallDemo />
     // <RefComponent />
-    <AsyncStorageDemo />
+    // <AsyncStorageDemo />
 
     // <Main />
 
@@ -84,7 +84,7 @@ export default function App() {
 
     // <ValidationInput />
 
-    // <ListWithUpdateDelBtn />
+    <ListWithUpdateDelBtn />
 
     // <UpdateDataModal />
 

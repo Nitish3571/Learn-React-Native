@@ -40,7 +40,7 @@ export default function NavigationDemo(){
                     headerTitleStyle:{
                         fontSize:25
                     }
-                }} 
+                }}  
                  />
                 <Stack.Screen name="Home" component={Home} />
             </Stack.Navigator>
