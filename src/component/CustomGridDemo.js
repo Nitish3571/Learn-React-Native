@@ -129,7 +129,7 @@ export default function CustomGridDemo (){
         <View style={{top:70}}>
             <Text style={{fontSize:31 , textAlign:'center'}}>Grid with Dynamic Data</Text>
             <ScrollView style={{color:'black'}}>
-            <View style={{flex:1 , flexDirection:'row' , flexWrap:'wrap'}}>
+            <View style={{flex:1 , flexDirection:'row' , flexWrap:'wrap' , justifyContent:"center"}}>
                 {
                     UserData.map((items)=>
                         <Text style={[styles.item]}>{items.name}</Text>

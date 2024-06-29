@@ -22,13 +22,15 @@ export default function Form (){
     return(
         <View >
             <Text style = {{textAlign:'center' , fontSize:30 , marginTop:100}}>Login Form</Text>
-            <View style={[styles.name , {marginTop:50}]}>
-            <TextInput style={[styles.InputStyle , {width:"45%"}]}
+            <View >
+            <TextInput style={[styles.InputStyle]}
             placeholder="Enter first name"
             onChangeText={(text) => SetFirstName(text)}
             value={firstName}
             />
-            <TextInput style={[styles.InputStyle , {width:"45%"}]}
+            </View>
+            <View>
+            <TextInput style={[styles.InputStyle]}
             placeholder="Enter last name"
             onChangeText={(text) => SetLastName(text)}
             value={lastName}

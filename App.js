@@ -31,6 +31,7 @@ import UpdateDataModal from './src/api/UpdateDataModal';
 import SearchBox from "./src/api/SearchBox";
 import AsyncStorageDemo from './src/AsyncStorageDemo';
 import Main from './src/component/Main';
+import { Provider } from 'react-redux';
 
 
 export default function App() {
@@ -42,13 +43,13 @@ export default function App() {
 
     //  <FlatListDemo />
 
-    //  <CustomGridDemo /> */}
+    //  <CustomGridDemo /> 
 
-    // {/* <SectionListDemo /> */}
+    // <SectionListDemo /> 
 
-    // {/* <UseEffectDemo /> */}
+    //  <UseEffectDemo /> 
 
-    // {/* <ShowHideComp /> */}
+    // <ShowHideComp /> 
 
     // <ResponsiveLayout />
 
@@ -66,11 +67,15 @@ export default function App() {
 
     // <PlateformDemo />
 
-    // <NpmInstallDemo />
+    // website in app convert 
+    <NpmInstallDemo />
+
     // <RefComponent />
     // <AsyncStorageDemo />
 
-    // <Main />
+    // <Provider>
+    //   <Main />
+    // </Provider>
 
     // Navigation Method 
     // <NavigationDemo />
@@ -84,7 +89,7 @@ export default function App() {
 
     // <ValidationInput />
 
-    <ListWithUpdateDelBtn />
+    // <ListWithUpdateDelBtn />
 
     // <UpdateDataModal />
 
